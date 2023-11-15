@@ -2,10 +2,10 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 import numpy as np
 
-scalar_factor = 1
+scalar_factor = 2
 
 frames = 500
-cars = 3
+cars = 5
 v_max = 0.0333 * scalar_factor  # km/s = 120km/h
 car_l = 0.0045 * scalar_factor  # km = 4.5m
 update_time = 0.1  # s
